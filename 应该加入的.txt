@@ -1,0 +1,3 @@
+// 智能判断分隔符
+var separator = SUB_CONVERTER_URL.includes("?") ? "&" : "?";
+finalUrl = SUB_CONVERTER_URL + separator + "target=" + clientType + "&url=" + encodedUrl + "&insert=false&config=" + encodeURIComponent(REMOTE_CONFIG_URL) + "&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true";
